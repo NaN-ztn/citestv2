@@ -1,5 +1,5 @@
 const execSync = require('child_process').execSync
-const version = require('../../package.json').version
+const version = require('./package.json').version
 
 /**
  * 获取当前Git分支信息
