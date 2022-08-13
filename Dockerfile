@@ -1,7 +1,7 @@
 FROM node:14-alpine
 COPY ./ /app
 WORKDIR /app
-RUN pnpm i && pnpm run build
+RUN yarn i && yarn build
 
 FROM nginx:alpine
 RUN mkdir /app
