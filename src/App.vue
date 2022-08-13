@@ -5,9 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>citest</div>
-  <h1 style="color: green">success</h1>
-  <h2 style="color: green">成功！！</h2>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
