@@ -1,7 +1,7 @@
 FROM node:14-alpine
 COPY / /manager-web
 WORKDIR /manager-web
-RUN yarn add pnpm -g && pnpm i && pnpm run build
+RUN npm i pnpm -g && pnpm i && pnpm run build
 
 FROM nginx:alpine
 RUN mkdir /manager-web
