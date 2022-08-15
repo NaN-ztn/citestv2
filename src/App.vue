@@ -7,10 +7,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <h3 style="color: red">citest</h3>
   <h3 style="color: red">citest</h3>
-  <h3 style="color: red">citest</h3>
-  <h3 style="color: red">citest</h3>
-  <h3 style="color: green">citest</h3>
-  <h3 style="color: green">citest</h3>
   <h3 style="color: green">citest</h3>
   <h3 style="color: green">citest</h3>
   <div>
