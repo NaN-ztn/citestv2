@@ -1,7 +1,9 @@
 FROM node:14-alpine
-COPY / /manager-web
 WORKDIR /manager-web
-RUN npm i pnpm -g && pnpm i && pnpm run build
+COPY /package.json /manager-web/
+RUN npm i pnpm -g && pnpm i
+COPY / /manager-web
+RUN pnpm run build
 
 FROM nginx:alpine
 RUN mkdir /manager-web
